@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson2Excercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Breakfast" translatesAutoresizingMaskIntoConstraints="NO" id="IT1-wk-No1">
+                                <rect key="frame" x="20" y="48" width="374" height="814"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TopGradient" translatesAutoresizingMaskIntoConstraints="NO" id="vMU-ai-qMz">
+                                <rect key="frame" x="20" y="48" width="374" height="380"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BottomGradient" translatesAutoresizingMaskIntoConstraints="NO" id="hU9-WK-xPS">
+                                <rect key="frame" x="20" y="564" width="374" height="298"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Energize with this healthy and hearty breakfast" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wLN-x2-zJp">
+                                <rect key="frame" x="40" y="771" width="334" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hardcore Avo Toast" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uDq-lj-eZQ">
+                                <rect key="frame" x="40" y="98" width="254" height="93.5"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="39"/>
+                                <color key="textColor" systemColor="systemBackgroundColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Heart_health" translatesAutoresizingMaskIntoConstraints="NO" id="awT-bs-EOp">
+                                <rect key="frame" x="327" y="98" width="47" height="41"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uDq-lj-eZQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="3Vz-B4-kdK"/>
+                            <constraint firstItem="vMU-ai-qMz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="3kv-wK-VFb"/>
+                            <constraint firstItem="awT-bs-EOp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="50" id="594-cD-t5y"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="hU9-WK-xPS" secondAttribute="bottom" id="671-qW-ivJ"/>
+                            <constraint firstItem="hU9-WK-xPS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Exf-oD-387"/>
+                            <constraint firstItem="uDq-lj-eZQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="50" id="KNI-u2-nOs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wLN-x2-zJp" secondAttribute="trailing" constant="20" id="Kph-kq-bnU"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="IT1-wk-No1" secondAttribute="bottom" id="LXx-uo-hNk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vMU-ai-qMz" secondAttribute="trailing" id="MSP-5E-2qE"/>
+                            <constraint firstItem="vMU-ai-qMz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="NXi-XA-QSr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uDq-lj-eZQ" secondAttribute="trailing" constant="100" id="OwT-iW-fQl"/>
+                            <constraint firstItem="IT1-wk-No1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="UBg-KQ-JYk"/>
+                            <constraint firstItem="wLN-x2-zJp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="VM4-Vl-bcJ"/>
+                            <constraint firstItem="IT1-wk-No1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="hNr-N5-Mq3"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="awT-bs-EOp" secondAttribute="trailing" constant="20" id="iNe-2X-ElN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="IT1-wk-No1" secondAttribute="trailing" id="n4i-ro-vS5"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="wLN-x2-zJp" secondAttribute="bottom" constant="50" id="pLA-Fc-GVd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="hU9-WK-xPS" secondAttribute="trailing" id="uQC-rV-AeO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BottomGradient" width="414" height="298"/>
+        <image name="Breakfast" width="414" height="896"/>
+        <image name="Heart_health" width="47" height="41"/>
+        <image name="TopGradient" width="414" height="380"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
